@@ -1,6 +1,5 @@
 import time
 
-
 class Tm():
     def Timr(*args, formatT='s'):
         Total = 0
