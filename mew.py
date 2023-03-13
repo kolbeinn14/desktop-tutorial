@@ -41,11 +41,3 @@ class Tm():
         sTime = time.time()
         print(f"{func.__name__} : {sTime - fTime}")
 
-
-def was():
-    time.sleep(1)
-
-def saw():
-    time.sleep(0.4)
-    
-Tm.Timr(was, saw, formatT='m')
